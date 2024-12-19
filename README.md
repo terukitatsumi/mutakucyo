@@ -1,1 +1,1 @@
-サンプルプロジェクト
+# lp-html-css-tutorial-pc-sp
