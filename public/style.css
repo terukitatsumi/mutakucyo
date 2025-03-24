@@ -27,7 +27,7 @@ p {
 }
 
 img {
-  max-width: 100%; /* スマホサイズでも画像が縮小される。 */
+  max-width: 100%;
 }
 
 li {
@@ -39,7 +39,7 @@ li {
 .wrapper {
   max-width: 960px;
   margin: 0 auto 130px auto;
-  font-size: 0.9rem; /* root em 最上位階層のHTML要素であるHTMLの文字サイズを基準とした相対値。HTMLの文字サイズを変更することで全体の文字サイズも変更できる */
+  font-size: 0.9rem;
   padding: 0 4%;
 }
 
@@ -230,11 +230,10 @@ Contact
   background: #fff;
   color: #24292e;
 }
+
 /*----------------------------------------------
 SP
 ------------------------------------------------*/
-/* pcファースト　大きいサイズから小さいサイズへ */
-/* 600pxより小さいときのcss適用 */
 @media screen and (max-width: 600px) {
   .wrapper {
     margin-bottom: 70px;
@@ -248,7 +247,6 @@ SP
     margin-bottom: 40px;
   }
 
-  /* ヘッダー */
   #header {
     max-width: 100%;
     height: auto;
@@ -271,7 +269,6 @@ SP
     margin-top: 15px;
   }
 
-  /* works */
   #works ul {
     flex-direction: column;
   }
@@ -280,7 +277,6 @@ SP
     width: 100%;
   }
 
-  /* news */
   #news dl {
     flex-direction: column;
   }
@@ -296,7 +292,6 @@ SP
     padding-top: 0;
   }
 
-  /* contact */
   #contact dl {
     flex-direction: column;
   }
@@ -305,6 +300,7 @@ SP
     width: 100%;
     margin-bottom: 5px;
   }
+
   #contact dd {
     width: 100%;
   }
